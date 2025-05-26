@@ -151,3 +151,44 @@ div.post {
 div.post p {
   padding-top: 10px;
 }
+
+/* Adjust for smaller screens. */
+@media screen and (max-width: 500px) {
+  header img {
+    margin-right: 200px;
+  }
+  nav {
+    margin: 0 5px;
+  }
+  div.about {
+    width: 90%;
+  }
+  div.about img,
+  div.post img  {
+    width: 90%;
+    margin: 0 20% 5% 10%;
+  }
+  h2 {
+    width: 90%
+  }
+  div.latest,
+  div.post  {
+    width: 90%;
+    margin: 0;
+  }
+  div.post h2 {
+    margin: 0 0 0 10%;
+  }
+  div.post p {
+    margin: 0 0 0 10%;
+    width: 90%;
+  }
+  div.blurb {
+    margin-right: 10%;
+  }
+  footer {
+    text-align: left;
+    width: 90%;
+    margin: 0 0 0 13%;
+  }
+}
